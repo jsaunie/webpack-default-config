@@ -1,0 +1,20 @@
+@import 'variables';
+
+$theme-font: verdana, sans-serif;
+
+body {
+  font: $theme-font;
+  background-color: $themeColor-Light;
+
+  h1, h2 {
+    color: $themeColor-Dark
+  }
+}
+
+.settingIcon{
+  background-image:url('./../icons/power_settings.svg');
+  background-repeat:no-repeat;
+  height:50px;
+  width:50px;
+  display:inline-block;
+}
